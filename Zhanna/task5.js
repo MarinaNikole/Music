@@ -1,3 +1,6 @@
-SELECT *
-FROM products;
+SELECT
+	Orders.OrderID,
+    Customers.CustomerName
+FROM Orders
+JOIN Customers USING(CustomerID)
 
