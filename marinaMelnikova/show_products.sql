@@ -1,4 +1,4 @@
 -- Применить скидку ко всем товарам из категории 1 в 0.5%
-SELECT ProductName, Price, ROUND(Price * .95, 2) AS discount_price 
-FROM Products
+UPDATE Products
+SET Price= ROUND(Price * .95, 2)
 WHERE CategoryID = 1
