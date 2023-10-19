@@ -1,4 +1,4 @@
-Задача. Вывести ТОП-3 юзеров, у которых больше всего заказов
+-- Задача. Вывести ТОП-3 юзеров, у которых больше всего заказов
 SELECT
 	Customers.CustomerName, 
 	COUNT(Orders.OrderID) AS total_orders
