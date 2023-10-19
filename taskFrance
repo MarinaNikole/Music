@@ -1,0 +1,6 @@
+// Задача. Вывести ко-во заказов у клиентов из France
+
+SELECT COUNT(orders.orderID) AS orders_france
+FROM orders
+JOIN customers ON orders.customerID=customers.customerID
+WHERE customers.country='France'
