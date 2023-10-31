@@ -1,0 +1,2 @@
+INSERT INTO Suppliers (SupplierName, ContactName, Address, City, PostalCode, Country, Phone)
+VALUES ('UN', 'Sam Li', NULL, NULL, NULL,  'China', NULL), ('SS', 'Bob Moris', NULL, NULL, NULL,  'China', NULL)
