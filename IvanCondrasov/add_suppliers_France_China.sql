@@ -1,0 +1,2 @@
+INSERT INTO Suppliers (SupplierName, ContactName, Address, City, PostalCode, Country, Phone)
+VALUES ('Ivan Ivanov LTD', 'Ivan Ivanov', '49 Gilbert St.', 'Beijing', '1234', 'China', '(171) 555-2222'), ('Petr Petrov GMBH', 'Petr Petrov', 'Calle del Rosal 4', 'Paris', '4321', 'France', '(100) 555-4822');
